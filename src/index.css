@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 全体の背景 */
+body {
+  background-color: #1a1a1a;
+  font-family: 'Georgia', serif;
+  color: #e0e0e0;
+}
+
+/* タスクが書かれているカード */
+.todo-card {
+  background: #232323;
+  border: 1px solid #4a4a4a;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1), inset 0px 0px 8px rgba(255, 255, 255, 0.05);
+  color: #e0e0e0;
+}
+
+/* タスク完了ラベル */
+.todo-card .completed-label {
+  background-color: #5a9f5a; /* Library of Ruinaの緑色に近い色 */
+  color: #ffffff;
+  box-shadow: 0px 0px 8px rgba(0, 255, 0, 0.2);
+}
+
+/* タイトル */
+.todo-card .title {
+  color: #f0d030; /* ゴールド */
+  font-weight: bold;
+}
+
+/* 優先度のスター */
+.todo-card .priority {
+  color: #e0a800;
+}
+
+/* 期限 */
+.todo-card .deadline {
+  color: #7da7d9; /* 鮮やかな青 */
+}
